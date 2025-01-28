@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tasty-food-web/static/css/main.9648a464.css",
+    "main.js": "/tasty-food-web/static/js/main.3dffc4ff.js",
+    "static/media/gal2.jpg": "/tasty-food-web/static/media/gal2.d39babe96dfc2655e963.jpg",
+    "static/media/gal3.jpg": "/tasty-food-web/static/media/gal3.9db329cac03b119fba27.jpg",
+    "static/media/gal1.jpg": "/tasty-food-web/static/media/gal1.50f59953650041dca1a1.jpg",
+    "static/media/Group70.png": "/tasty-food-web/static/media/Group70.d9db85ee66d77a48922e.png",
+    "static/media/beritaSide4.jpg": "/tasty-food-web/static/media/beritaSide4.945a9ced1749a29728f4.jpg",
+    "static/media/beritaUtama.jpg": "/tasty-food-web/static/media/beritaUtama.11d344f7bb378bbad042.jpg",
+    "static/media/visi-img.jpg": "/tasty-food-web/static/media/visi-img.e3d983db304013c2af78.jpg",
+    "static/media/beritaSide2.jpg": "/tasty-food-web/static/media/beritaSide2.0c13ad40d897d392f6c9.jpg",
+    "static/media/beritaSide1.jpg": "/tasty-food-web/static/media/beritaSide1.20311e1eb990ac20a265.jpg",
+    "static/media/img-1.png": "/tasty-food-web/static/media/img-1.117102863f200fa4e11a.png",
+    "static/media/img-4.png": "/tasty-food-web/static/media/img-4.fcefe6919ed5fcd6c66a.png",
+    "static/media/img-2.png": "/tasty-food-web/static/media/img-2.b8c2db2d8940a0d1ea2d.png",
+    "index.html": "/tasty-food-web/index.html",
+    "main.9648a464.css.map": "/tasty-food-web/static/css/main.9648a464.css.map",
+    "main.3dffc4ff.js.map": "/tasty-food-web/static/js/main.3dffc4ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9648a464.css",
+    "static/js/main.3dffc4ff.js"
+  ]
+}
