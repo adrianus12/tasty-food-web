@@ -2,7 +2,7 @@ import { useState } from 'react'
 import useFetch from '../components/useFetch'
 
 const Gallery = () => {
-    const {error, isPending, data: galleries} = useFetch('http://localhost:8000/galleries')
+    const {error, isPending, data: galleries} = useFetch(process.env.REACT_APP_URLDATA + '/galleries')
     const [count,setCount] = useState(6)
 
     return (  

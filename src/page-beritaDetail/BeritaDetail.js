@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const BeritaDetail = () => {
     const {id} = useParams()
-    const {error, isPending, data: news} = useFetch('http://localhost:8000/news?id='+id)
+    const {error, isPending, data: news} = useFetch(process.env.REACT_APP_URLDATA + '/news?id='+id)
 
     return (
         <div className="beritaDetail">

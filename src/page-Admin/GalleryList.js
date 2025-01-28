@@ -5,7 +5,7 @@ import ModalAdd from "./ModalAdd";
 import ModalUpdate from "./ModalUpdate";
 
 const GalleryList = () => {
-    const url = 'http://localhost:8000/galleries/'
+    const url = process.env.REACT_APP_URLDATA + '/galleries/'
     const {error, isPending, data: gallery, fetchData} = useFetch(url)
     const [showModal, setShowModal] = useState(false)
     const [showAdd, setShowAdd] = useState(false)

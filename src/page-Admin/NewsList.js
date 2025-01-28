@@ -5,7 +5,7 @@ import ModalUpdate from "./ModalUpdate";
 import ModalAdd from "./ModalAdd";
 
 const NewsList = () => {
-    const url = 'http://localhost:8000/news/'
+    const url = process.env.REACT_APP_URLDATA + '/news/'
     const {error, isPending, data: news, fetchData} = useFetch(url)
     const [showModal, setShowModal] = useState(false)
     const [showAdd, setShowAdd] = useState(false)

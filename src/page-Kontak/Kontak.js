@@ -18,7 +18,7 @@ const Kontak = () => {
 
     const submitForm = ()=>{
         console.log(form)
-        fetch('http://localhost:8000/mail',{
+        fetch(process.env.REACT_APP_URLDATA + '/mail',{
             method:"POST",
             headers:{
                 "Content-Type": "application/json"
@@ -33,7 +33,7 @@ const Kontak = () => {
             })
     }
     
-    const {data: mails} = useFetch('http://localhost:8000/mail')
+    const {data: mails} = useFetch(process.env.REACT_APP_URLDATA + '/mail')
     
     const [addId, setAddId] = useState(1)
     useEffect(()=>{

@@ -2,7 +2,7 @@ import BoxBerita from '../components/BoxBerita'
 import useFetch from '../components/useFetch'
 
 const Berita = () => {
-    const {error, isPending, data: news} = useFetch('http://localhost:8000/news')
+    const {error, isPending, data: news} = useFetch(process.env.REACT_APP_URLDATA + '/news')
     
     return (  
         <div className="beritaHome">

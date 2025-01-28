@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
-    const {error, isPending, data: users} = useFetch('http://localhost:8000/user')
+    const {error, isPending, data: users} = useFetch(process.env.REACT_APP_URLDATA + '/user')
     const [loginForm, setLoginForm] = useState({
         username:'',
         password:''

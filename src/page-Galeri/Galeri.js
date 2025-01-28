@@ -14,7 +14,7 @@ import Footer from '../components/Footer';
 
 const Galeri = () => {
     const carouselPics = [img1,pic9,pic10]
-    const {error, isPending, data: galleries} = useFetch('http://localhost:8000/galleries')
+    const {error, isPending, data: galleries} = useFetch(process.env.REACT_APP_URLDATA + '/galleries')
 
     return (  
         <div className="galeri">

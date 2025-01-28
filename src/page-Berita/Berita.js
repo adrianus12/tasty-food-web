@@ -10,7 +10,7 @@ import image1 from '../assets/gal3.jpg'
 import Footer from '../components/Footer'
 
 const Berita = () => {
-    const {error, isPending, data: news} = useFetch('http://localhost:8000/news')
+    const {error, isPending, data: news} = useFetch(process.env.REACT_APP_URLDATA + '/news')
 
     return (  
         <div className="berita">

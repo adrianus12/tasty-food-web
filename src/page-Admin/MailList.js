@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import MailDetail from "./MailDetail";
 
 const MailList = () => {
-    const url = 'http://localhost:8000/mail/'
+    const url = process.env.REACT_APP_URLDATA + '/mail/'
     const {error, isPending, data: mails} = useFetch(url)
     const [showModal, setShowModal] = useState(false)
     const handleClose = ()=>{setShowModal(false)}
