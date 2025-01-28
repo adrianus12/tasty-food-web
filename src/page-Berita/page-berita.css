@@ -1,0 +1,40 @@
+.berita {
+    text-align: left;
+}
+.beritaIntro {
+    padding: 65px 95px;
+    background-color: rgba(226, 226, 226, 0.336);
+    display: flex;
+    justify-items: center;
+    column-gap: 15px;
+}
+.beritaIntro img {
+    width: 50%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #aaaaaa;
+} 
+.beritaIntro-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.beritaIntro-text button {
+    margin-top: 14px;
+    width: 100%;
+}
+.beritaLain {
+    padding: 65px 95px;
+}
+.beritaLain-content {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+

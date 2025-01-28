@@ -1,13 +1,224 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Montserrat',
+    sans-serif; */
+    font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  
+}
+
+html {
+  padding: 0;
+}
+
+.container {
+  padding: 35px 95px;
+}
+h1 {
+  margin: 7px 0 0 0;
+  font-size: 40px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+p {
+  font-size: 13.5px;
+}
+.blackButton {
+  width: 300px;
+  background-color: black;
+  color: rgb(236, 236, 236);
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+button:active {
+  color: rgb(231, 231, 231);
+  background-color: rgb(31, 31, 31);
+}
+.blackButton:hover {
+  background-color: rgb(27, 27, 27);
+}
+button:hover {
+  box-shadow: 0 0 5px #aaaaaa;
+}
+
+
+/* NAVBAR */
+.NavbarHome {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  padding: 35px 95px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  float: right;
+}
+.Navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 35px 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.nav h4 {
+  font-weight: 500;
+}
+.Navbar h2,.NavbarHome h2 {
+  padding-right: 100px;
+}
+.Navbar h4,.NavbarHome h4 {
+  padding-left: 30px;
+}
+.link {
+  text-decoration: inherit;
+  color: inherit;
+  scroll-margin-top: 0px;
+}
+.link :hover{
+  color: rgb(196, 177, 142);
+  cursor: pointer;
+}
+
+
+
+/* TITLE */
+.Title {
+  margin: 0;
+  background-image: url('assets/Group70.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  color: white;
+}
+.titleText {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  align-content: center;
+  height: 450px;
+  padding: 0 95px;
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(17, 17, 17);
+  color: white;
+  padding: 65px 95px;
+}
+.footerContent {
+  display: flex;
+  align-items: baseline;
+  text-align: left;
+  column-gap: 100px;
+  padding-bottom: 20px;
+}
+.fot1 {
+  width: 350px;
+}
+.fot1 p {
+  color: rgb(206, 206, 206);
+}
+.fot4 p {
+  margin: 0;
+}
+.fot4 img {
+  width: 12px;
+}
+.footer span {
+  display: flex;
+  align-items: baseline;
+  margin: 0 0 14px;
+}
+span img {
+  padding-right: 20px;
+  width: 50px;
+}
+
+/* Box Berita */
+.boxBerita {
+  width:100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 5px #aaaaaa;
+}
+.boxBerita img {
+  width: 100%;
+  height: 50%;
+  max-height: 183.33px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.boxText {
+  width: 275px;
+  height: 140px;
+  display: inline-block;
+}
+.boxText h3{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.boxText p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.boxFooter {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.boxBerita h3,.boxBerita p {
+  padding: 0 20px;
+  margin-bottom: 0;
+}
+.link2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-decoration: none;
+  color: rgb(241, 205, 0);
+  width: 100%;
+  height: 20px;
+  margin-top: 24px;
+}
+.link2:hover {
+  cursor: pointer;
+  color: rgb(104, 88, 2);
 }

@@ -1,0 +1,28 @@
+.newsDetail {
+    padding: 65px 95px;
+}
+.detailHead {
+    display: flex;
+    align-items: center;
+}
+.newsDetail h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 30px 50px;
+}
+.newsDetail img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #aaaaaa;
+}
+.newsDetail h4 {
+    text-align: left;
+    font-weight: 400;
+    background-color: rgba(226, 226, 226, 0.336);
+    padding: 30px 50px;
+    font-size: 16px;
+    border-radius: 10px;
+}

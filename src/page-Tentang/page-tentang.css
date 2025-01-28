@@ -1,0 +1,67 @@
+.tentang {
+    position: relative;
+}
+.tentang p {
+    margin-top: 0;
+}
+.tentangContent-img img {
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #aaaaaa;
+} 
+.tentangContent {
+    padding: 100px 95px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(226, 226, 226, 0.336);
+    column-gap: 20px;
+}
+.tentangContent-text {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.tentangContent-text p {
+    font-weight: 700;
+}
+.tentangContent-text span p {
+    font-weight: normal;
+}
+.tentangContent-img {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 15px;
+
+}
+.tentangContent img {
+    width: 280px;
+    height: 400px;
+}
+
+.tentangContent2 {
+    padding: 100px 95px;
+    row-gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.tentangContent2 p {
+    font-weight: normal;
+}
+.tentangVisi,.tentangMisi {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+.tentangVisi img {
+    width: 280px;
+    height: 280px;
+    
+}
+.tentangMisi img {
+    width: 550px;
+    height: 280px;
+    
+}
