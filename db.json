@@ -13,56 +13,56 @@
   ],
   "news": [
     {
-      "pic": "./assets/beritaUtama.jpg",
+      "pic": "./img_server/beritaUtama.jpg",
       "title": "TITLE 1 TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.",
       "id": "1"
     },
     {
-      "pic": "./assets/beritaSide1.jpg",
+      "pic": "./img_server/beritaSide1.jpg",
       "title": "TITLE 2",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.",
       "id": "2"
     },
     {
-      "pic": "../assets/beritaSide2.jpg",
+      "pic": "./img_server/beritaSide2.jpg",
       "title": "TITLE 3",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.",
       "id": "3"
     },
     {
-      "pic": "../assets/beritaSide3.jpg",
+      "pic": "./img_server/beritaSide3.jpg",
       "title": "TITLE 4",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.",
       "id": "4"
     },
     {
-      "pic": "../assets/beritaSide4.jpg",
+      "pic": "./img_server/beritaSide4.jpg",
       "title": "TITLE 5",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.",
       "id": "5"
     },
     {
-      "pic": "../assets/beritaSide1.jpg",
+      "pic": "./img_server/beritaSide1.jpg",
       "title": "TITLE 6",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.",
       "id": "6"
     },
     {
-      "pic": "../assets/beritaSide2.jpg",
+      "pic": "./img_server/beritaSide2.jpg",
       "title": "TITLE 7",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.",
       "id": "7"
     },
     {
-      "pic": "../assets/beritaSide3.jpg",
+      "pic": "./img_server/beritaSide3.jpg",
       "title": "TITLE 8",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.",
       "id": "8"
     },
     {
       "id": "9",
-      "pic": "/static/media/beritaUtama.11d344f7bb378bbad042.jpg",
+      "pic": "./img_server/beritaUtama.jpg",
       "title": "WDWD",
       "body": "kaedeg eukhe deakduhe dakuehd adkh aekudh adkhek dae.\nahedku ekuadh kahedu kaehdk.\nawdawd\nawdawd\nasdsd\nasdsd"
     },
@@ -70,56 +70,56 @@
       "id": "10",
       "title": "MAKANAN ENAK SEKALI DI BANDUNG",
       "body": "sdgfgfgsfg gsdf fsg dfhekfhkaeuhfkueaf. fjhelafhaefhli efhaeifhli heiafhleif efaef.",
-      "pic": "/static/media/beritaUtama.11d344f7bb378bbad042.jpg"
+      "pic": "./img_server/beritaUtama.jpg"
     }
   ],
   "galleries": [
     {
-      "pic": "../assets/gal1.jpg",
+      "pic": "./img_server/gal1.jpg",
       "id": "1"
     },
     {
-      "pic": "../assets/gal2.jpg",
+      "pic": "./img_server/gal2.jpg",
       "id": "2"
     },
     {
-      "pic": "../assets/gal3.jpg",
+      "pic": "./img_server/gal3.jpg",
       "id": "3"
     },
     {
-      "pic": "../assets/gal4.jpg",
+      "pic": "./img_server/gal4.jpg",
       "id": "4"
     },
     {
-      "pic": "../assets/gal5.jpg",
+      "pic": "./img_server/gal5.jpg",
       "id": "5"
     },
     {
-      "pic": "../assets/gal6.jpg",
+      "pic": "./img_server/gal6.jpg",
       "id": "6"
     },
     {
-      "pic": "../assets/gal7.jpg",
+      "pic": "./img_server/gal7.jpg",
       "id": "7"
     },
     {
-      "pic": "../assets/gal8.jpg",
+      "pic": "./img_server/gal8.jpg",
       "id": "8"
     },
     {
-      "pic": "../assets/gal9.jpg",
+      "pic": "./img_server/gal9.jpg",
       "id": "9"
     },
     {
-      "pic": "../assets/gal10.jpg",
+      "pic": "./img_server/gal10.jpg",
       "id": "10"
     },
     {
-      "pic": "../assets/beritaUtama.jpg",
+      "pic": "./img_server/beritaUtama.jpg",
       "id": "11"
     },
     {
-      "pic": "../assets/beritaSide1.jpg",
+      "pic": "./img_server/beritaSide1.jpg",
       "id": "12"
     }
   ],
