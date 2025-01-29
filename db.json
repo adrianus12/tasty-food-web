@@ -13,7 +13,7 @@
   ],
   "news": [
     {
-      "pic": "./img_server/beritaUtama.jpg",
+      "pic": "/img_server/beritaUtama.jpg",
       "title": "TITLE 1 TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1TITLE 1",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, feugiat vel luctus et, tincidunt tincidunt purus.",
       "id": "1"
